@@ -1,0 +1,25 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import JBrailler.PerkinsBraillerTextArea?>
+<?import java.net.URL?>
+<GridPane fx:controller="JBrailler.SampleApp.Controller" fx:id="grid"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center" hgap="10" vgap="10">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+    <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
+
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0"
+        onAction="#save">Save</Button>
+
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="1"
+        onAction="#open">Open</Button>
+
+    <PerkinsBraillerTextArea fx:id="brailleTextInput"
+                             GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2"
+                             wrapText="true">
+    </PerkinsBraillerTextArea>
+
+</GridPane>

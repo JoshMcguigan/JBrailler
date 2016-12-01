@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JBraille.iml" filepath="$PROJECT_DIR$/JBraille.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JBrailler.iml" filepath="$PROJECT_DIR$/JBrailler.iml" />
     </modules>
   </component>
 </project>

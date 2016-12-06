@@ -108,13 +108,13 @@ public class PerkinsBraillerTextArea extends TextArea {
 
     private void updateCurrentCell(KeyEvent event){
         switch (event.getText()) {
-            case "a":
+            case "s":
                 currentCell[2] = true;
                 break;
-            case "s":
+            case "d":
                 currentCell[1] = true;
                 break;
-            case "d":
+            case "f":
                 currentCell[0] = true;
                 break;
             case "j":
@@ -148,7 +148,7 @@ public class PerkinsBraillerTextArea extends TextArea {
 
     private boolean isRelevantKey(KeyEvent event){
 
-        String[] relevantKeys = {"a","s","d"," ","j","k","l"};
+        String[] relevantKeys = {"s","d","f"," ","j","k","l"};
 
         return Arrays.asList(relevantKeys).contains(event.getText());
 

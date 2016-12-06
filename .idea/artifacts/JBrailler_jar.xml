@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JBrailler:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JBrailler_jar</output-path>
+    <root id="archive" name="JBrailler.jar">
+      <element id="module-output" name="JBrailler" />
+    </root>
+  </artifact>
+</component>

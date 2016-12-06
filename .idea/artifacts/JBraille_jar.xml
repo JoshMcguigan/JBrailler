@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="JBraille:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JBraille_jar</output-path>
-    <root id="archive" name="JBraille.jar">
-      <element id="module-output" name="JBrailler" />
-    </root>
-  </artifact>
-</component>
